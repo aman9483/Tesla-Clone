@@ -1,13 +1,98 @@
-body {
+*{
+
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@keyframes animateDown{
+
+  0%, 20%, 50%, 80% , 100%{
+
+      transform: translateY(0);
+  }
+
+  40%{
+
+    transform: translateY(5px);
+
+  }
+
+  60%{
+
+    transform: translateY(3px);
+  }
 }
+
+a{
+
+  text-decoration: none;
+  color: black;
+
+  
+}
+
+a{
+
+  margin: 15px;
+}
+
+h1{
+
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  #cars {
+    
+       display:none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  ButtonGroup{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #anchors{
+   
+    margin-left: -10px;
+  }
+}
+
+.custom-order-header{
+
+    margin-top: 90px;
+
+      margin-left: 35px;
+
+      font-size: 2.5rem;
+
+      
+}
+
+.custom-order-hero-section{
+
+    height: 100vh;
+    width: 100vw;
+
+      background-color: #BBC4C2;
+}
+
+.custom-options{
+
+      position: relative;
+      top: -750px;
+      left: 1200px;
+
+}
+
+select{
+
+  width: 12rem;
+
+  height: 2rem;
+}
+
+
